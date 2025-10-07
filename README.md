@@ -117,6 +117,16 @@ enum AuthDestination: Routable {
 }
 
 typealias AuthRouter = Router<AuthDestination>
+
+struct AuthRootNavigationView: View {
+    @State private var router = AuthRouter()
+    
+    var body: some View {
+        RouterContainerView(router: router) {
+            AuthenticationHomeView()
+        }
+    }
+}
 ```
 
 ### 3. Navigate in Your Views
