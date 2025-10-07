@@ -1,6 +1,6 @@
 //
 //  Router.swift
-//  SwiftUIRouter
+//  SwiftUINavigationRouter
 //
 //  Created by Aviru Bhattacharjee on 02/10/25.
 //

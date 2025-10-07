@@ -1,4 +1,4 @@
-# SwiftUIRouter
+# SwiftUINavigationRouter
 
 A powerful, type-safe, and generic navigation router for SwiftUI applications.
 
@@ -32,7 +32,7 @@ A powerful, type-safe, and generic navigation router for SwiftUI applications.
 
 ### Swift Package Manager
 
-Add SwiftUIRouter to your project using SPM:
+Add SwiftUINavigationRouter to your project using SPM:
 
 1. In Xcode, go to **File → Add Packages...**
 2. Enter the repository URL: `https://github.com/aviru02/SwiftUINavigationRouter.git`
@@ -54,7 +54,7 @@ dependencies: [
 Create an enum conforming to `Routable`:
 
 ```swift
-import SwiftUIRouter
+import SwiftUINavigationRouter
 
 enum AppDestination: Routable {
     case home
@@ -499,7 +499,7 @@ struct ProtectedView: View {
 
 ### How It Works
 
-SwiftUIRouter uses a combination of SwiftUI's `NavigationStack` and a custom environment system to provide type-safe navigation:
+SwiftUINavigationRouter uses a combination of SwiftUI's `NavigationStack` and a custom environment system to provide type-safe navigation:
 
 1. **NavigationPath**: Uses SwiftUI's type-erased `NavigationPath` for the actual navigation
 2. **Type-Safe Stack**: Maintains a parallel typed stack for type-safe operations
@@ -637,7 +637,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Support
 
 - 📧 Email: avirubhattacharjee2@gmail.com
-- 💬 Issues: [GitHub Issues](https://github.com/yourusername/SwiftUIRouter/issues)
+- 💬 Issues: [GitHub Issues](https://github.com/aviru02/SwiftUINavigationRouter/issues)
 
 ---
 
